@@ -10,21 +10,21 @@
   },
   "dependencies": {
     "@kuka-js/core": "^1.2.0",
-    "aws-sdk": "^2.845.0",
+    "aws-sdk": "^2.938.0",
     "loglevel": "^1.7.1"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.72",
-    "newman": "^5.2.2",
-    "prettier": "^2.2.1",
-    "semantic-release": "^17.3.9",
-    "semantic-release-monorepo": "^7.0.4",
-    "serverless": "^2.25.2",
+    "@types/aws-lambda": "^8.10.77",
+    "newman": "^5.2.4",
+    "prettier": "^2.3.2",
+    "semantic-release": "^17.4.4",
+    "semantic-release-monorepo": "^7.0.5",
+    "serverless": "^2.50.0",
     "serverless-domain-manager": "^5.1.0",
-    "serverless-dotenv-plugin": "^3.5.1",
-    "serverless-offline": "^6.8.0",
+    "serverless-dotenv-plugin": "^3.9.0",
+    "serverless-offline": "^6.9.0",
     "serverless-plugin-typescript": "1.1.9",
-    "typescript": "^4.1.5"
+    "typescript": "^4.3.5"
   },
   "husky": {
     "hooks": {
@@ -32,7 +32,9 @@
     }
   },
   "lint-staged": {
-    "*.{js,json,yml,yaml,css,scss,ts,tsx,md}": ["prettier --write"]
+    "*.{js,json,yml,yaml,css,scss,ts,tsx,md}": [
+      "prettier --write"
+    ]
   },
   "manualBuild": "edit this string to cause manual build.",
   "publishConfig": {
